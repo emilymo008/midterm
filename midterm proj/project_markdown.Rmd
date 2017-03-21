@@ -9,7 +9,7 @@ library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
 ```
 
-This project involved preparing and cleaning up data from OSHA about workplace accidents and safety violations in the state of Massachusetts over the course of over 20 years. Although the data came with much more information, I retained only the variables that I felt could contribute to relevant, significant analysis on safety within the workplace, and modified the layouts of several variables to make analysis easier and clearer.
+This project involved preparing and cleaning up data from OSHA about workplace accidents and safety violations in the state of Massachusetts over the course of over 20 years. Although the data came with much more information, I retained only the variables that I felt could contribute to relevant, significant analysis on safety within the workplace, and modified the layouts of several variables to make analysis easier and clearer. The final product was two data sets, "all" and "all_noDUPL", and the difference between the two is explained later in the report.
 
 To set up the project, I initialize several packages. The working directory is already set by the project file.
 ```{r, eval=FALSE}
