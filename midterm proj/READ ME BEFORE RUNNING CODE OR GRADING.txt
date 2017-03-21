@@ -1,0 +1,4 @@
+All of the code I performed is located in project_markdown.Rmd. There is a PDF of this markdown as well. Since I set eval=FALSE for all R chunks in the markdown, it seems that the only way to run all the code is to place the cursor at the top of the markdown code and click “Run Next Chunk” in Rstudio until all the code has been run.
+
+If there is still a problem running the R code within the markdown, the same code is in the file project.R.
+
